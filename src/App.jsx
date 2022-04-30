@@ -9,10 +9,8 @@ function App() {
   const [isRated, setIsRated] = useState(false);
 
   const ratingValueHandler = (value) => {
-    if (value) {
-      setNewRate(value);
-      setIsRated(true);
-    }
+    setNewRate(value);
+    setIsRated(true);
   };
   return (
     <main>
