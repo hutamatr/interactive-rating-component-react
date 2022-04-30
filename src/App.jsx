@@ -1,17 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Card from "./components/UI/Card";
 import MainRating from "./components/MainRating/MainRating";
-import RatingValue from "./components/MainRating/RatingValue";
-import Button from "./components/UI/Button";
+import MainThanks from "./components/MainRating/MainThanks";
 
 function App() {
+  const [newRate, setNewRate] = useState("");
+  const [isRated, setIsRated] = useState(false);
+
+  const ratingValueHandler = (value) => {
+    if (value) {
+      setNewRate(value);
+      setIsRated(true);
+    }
+  };
   return (
     <main>
-      <Card className="flex translate-y-1/2 flex-col gap-y-5">
-        <MainRating />
-        <RatingValue />
-        <Button>SUBMIT</Button>
+      <Card className="translate-y-1/2">
+        <MainRating
+          onAddValue={ratingValueHandler}
+          className={`${isRated ? "hidden" : "flex"}`}
+        />
+        <MainThanks
+          onAddRating={newRate}
+          className={`${!isRated ? "hidden" : "flex"}`}
+        />
       </Card>
     </main>
   );
