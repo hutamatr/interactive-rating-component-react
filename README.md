@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/interactiveratingcomponentreacttailwindcss-BJoGtAqBq)
 - Live Site URL: [Demo](https://rating-component-htma.netlify.app)
 
 ## My process
