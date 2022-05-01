@@ -14,7 +14,7 @@ function App() {
   };
   return (
     <main>
-      <Card className="translate-y-1/3">
+      <Card className="translate-y-1/2">
         <MainRating
           onAddValue={ratingValueHandler}
           className={`${isRated ? "hidden" : "flex"}`}
