@@ -16,7 +16,7 @@ const MainRating = (props) => {
 
   return (
     <section className={`flex-col gap-y-4 ${props.className}`}>
-      <div className="mb-3 flex max-w-fit items-center justify-center rounded-full bg-dark-gray p-3">
+      <div className="mb-4 flex max-w-fit items-center rounded-full bg-dark-gray p-3.5">
         <img src={star} alt="icon" className="w-4" />
       </div>
       <h1 className="text-2xl font-bold text-white">How did we do?</h1>

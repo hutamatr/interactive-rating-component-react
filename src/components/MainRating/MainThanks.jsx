@@ -11,7 +11,7 @@ const MainThanks = (props) => {
         You selected {props.onAddRating} out of 5
       </p>
       <div className="flex flex-col items-center justify-center gap-y-3">
-        <h1 className="text-xl font-bold text-white">Thank You!</h1>
+        <h1 className="text-2xl font-bold text-white">Thank You!</h1>
         <p className="text-center text-sm text-new-gray ">
           We appreciate you taking the time to give a rating. If you ever need
           more support, don’t hesitate to get in touch!
