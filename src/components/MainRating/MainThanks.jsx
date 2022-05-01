@@ -4,7 +4,7 @@ import thankYou from "../../assets/illustration-thank-you.svg";
 
 const MainThanks = (props) => {
   return (
-    <section className={`flex-col gap-y-4 py-3 px-2 ${props.className}`}>
+    <section className={`flex-col gap-y-5 py-3 px-2 ${props.className}`}>
       <img src={thankYou} alt="thank-you" className="mx-auto" />
 
       <p className="mx-auto mb-2 max-w-fit rounded-full bg-dark-gray px-3 py-1.5 text-sm text-new-orange">

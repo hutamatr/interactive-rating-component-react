@@ -4,7 +4,7 @@ const Card = (props) => {
   const { className, children } = props;
   return (
     <div
-      className={`relative m-auto max-w-xs rounded-2xl bg-dark-blue px-5 py-6 ${className}`}
+      className={`relative m-auto max-w-sm rounded-3xl bg-dark-blue p-8 ${className}`}
     >
       {children}
     </div>

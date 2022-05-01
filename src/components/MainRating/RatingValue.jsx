@@ -13,7 +13,7 @@ const RatingValue = (props) => {
         return (
           <li key={rate}>
             <button
-              className="cursor-pointer rounded-full bg-dark-gray px-4 py-2.5 text-sm text-new-gray duration-300 hover:bg-new-orange hover:text-white focus:bg-new-gray focus:text-white active:bg-new-gray"
+              className="cursor-pointer rounded-full bg-dark-gray px-4 py-2.5 text-sm text-new-gray duration-300 hover:bg-new-orange hover:text-white focus:bg-new-gray focus:text-white active:bg-new-gray md:px-5 md:py-3.5"
               onClick={addRatingValueHandler}
               value={rate}
             >
